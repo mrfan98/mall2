@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.115.12.44:3306/cskaoyanmall?characterEncoding=utf-8
+    username: root
+    password: 123456
+pagehelper:
+  helper-dialect: mysql
+
